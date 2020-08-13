@@ -4,10 +4,9 @@
 Benchmarking using BenchmarkDotNet library
 ```
 
-In this demo, i m using 'BenchmarkDotNet' in order to benchmark some methods used in order to filter an input collection of integer.
-'LinqToObjects' method is the best approach here since it consume less cpu & memory than the others methods.
+In this demo, i m using `BenchmarkDotNet` in order to benchmark some methods used in order to filter an input collection of integer.
+> `LinqToObjects` method is the best approach here since it consume less cpu & memory than the others methods.
 
-```
 |                          Method | NumberOfItems |      Mean |     Error |    StdDev |       Min |       Max | Ratio |  Gen 0 |  Gen 1 | Gen 2 | Allocated |
 |-------------------------------- |-------------- |----------:|----------:|----------:|----------:|----------:|------:|-------:|-------:|------:|----------:|
 | **ConsumeUsingTemporaryCollection** |          **1000** | **12.115 μs** | **0.0376 μs** | **0.0333 μs** | **12.039 μs** | **12.154 μs** |  **1.00** | **0.9155** |      **-** |     **-** |    **4376 B** |
