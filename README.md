@@ -1,10 +1,10 @@
 ﻿![.NET Core](https://github.com/aimenux/BenchmarkDotNetDemo/workflows/.NET%20Core/badge.svg)
 # BenchmarkDotNetDemo
 ```
-Benchmarking using BenchmarkDotNet library
+Demo of benchmarking algorithms using BenchmarkDotNet
 ```
 
-In this demo, i m using `BenchmarkDotNet` in order to benchmark some methods used in order to filter an input collection of integer.
+In this demo, i m using `BenchmarkDotNet` in order to benchmark some methods used in order to filter an input collection of integers.
 > `LinqToObjects` method is the best approach here since it consume less cpu & memory than the others methods.
 
 |                          Method | NumberOfItems |      Mean |     Error |    StdDev |       Min |       Max | Ratio |  Gen 0 |  Gen 1 | Gen 2 | Allocated |
