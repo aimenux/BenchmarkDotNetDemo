@@ -8,8 +8,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="BenchmarkDotNet" Version="0.13.9" />
-    <PackageReference Include="BenchmarkDotNet.Diagnostics.Windows" Version="0.13.9" />
+    <PackageReference Include="BenchmarkDotNet" Version="0.13.11" />
+    <PackageReference Include="BenchmarkDotNet.Diagnostics.Windows" Version="0.13.11" />
     <PackageReference Include="Humanizer.Core" Version="2.10.1" />
     <PackageReference Include="Humanizer.Core.fr" Version="2.10.1" />
   </ItemGroup>
