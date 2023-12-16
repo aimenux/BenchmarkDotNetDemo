@@ -1,4 +1,4 @@
-﻿[![.NET](https://github.com/aimenux/BenchmarkDotNetDemo/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/aimenux/BenchmarkDotNetDemo/actions/workflows/ci.yml)
+﻿[![.NET](https://github.com/aimenux/BenchmarkDotNetDemo/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/aimenux/BenchmarkDotNetDemo/actions/workflows/ci.yml)
 
 # BenchmarkDotNetDemo
 ```
